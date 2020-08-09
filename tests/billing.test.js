@@ -1,6 +1,5 @@
 
 import { calculateCost } from "../libs/billing-lib";
-import { TestScheduler } from "jest";
 
 test("Lower tier", () => {
     const storage = 10;
